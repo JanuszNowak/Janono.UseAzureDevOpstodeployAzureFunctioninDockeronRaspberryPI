@@ -4,5 +4,5 @@ ENV AzureWebJobsScriptRoot=/home/site/wwwroot
 
 # Add files from this repo to the root site folder.
 COPY . /home/site/wwwroot 
-COPY . /bin /home/site/wwwroot 
+COPY . /bin/ /home/site/wwwroot 
 RUN ls
